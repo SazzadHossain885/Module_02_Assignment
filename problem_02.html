@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">0</div>
+    <button onclick="counter()">Click on this text</button>
+
+    <script>
+        function counter(){
+            let x = document.getElementById("demo").innerText;
+            let value = parseInt(x);
+            value ++;
+            console.log(x);
+            document.getElementById("demo").innerText = value;
+        }
+    </script>
+
+</body>
+</html>
