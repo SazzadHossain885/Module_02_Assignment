@@ -11,9 +11,9 @@
     
     <script>
         let url = "https://jsonplaceholder.typicode.com/posts"
-        fetch (url)
+        fetch(url)
         .then(x => x.text())
-        .then(data => document.getElementById("demo").innerHTML = data);
+        .then(data => console.log(data));
     </script>
 </body>
 </html>
